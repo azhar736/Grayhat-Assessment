@@ -26,11 +26,11 @@ npm start
 ```
 The server will start on the defined port in the environment, defaulting to 8000. Make sure to have ffmpeg installed on your system for video processing features to work.
 
-# Frontend
+### Frontend
 The frontend provides the user interface for uploading and streaming videos.Navigate to the frontend directory and execute
-# Navigate to the frontend directory
+### Navigate to the frontend directory
 cd path/to/frontend
-
+```bash
 # Install dependencies
 npm install
 
@@ -43,10 +43,10 @@ npm run build
 # Lint and fix files
 npm run lint
 npm run lint:fix
-
+```
 Open your web browser and go to the localhost address provided by Vite to view the frontend.
 
-# Features
+## Features
 .Real-time video encoding and watermarking.
 .Video streaming with support for partial content delivery.
 .Intuitive user interface using React and Tailwind CSS.
